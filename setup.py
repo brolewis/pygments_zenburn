@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Pygments Zenburn Style',
+    name='pygments_zenburn',
     version='0.9.0',
     packages=find_packages(),
     entry_points='''[pygments.styles]
@@ -26,4 +26,5 @@ zenburn = zenburn.style:ZenburnStyle''',
     long_description = __doc__,
     keywords = 'syntax highlighting',
     platforms = 'any',
+    url = 'https://github.com/brolewis/pygments_zenburn',
 )
